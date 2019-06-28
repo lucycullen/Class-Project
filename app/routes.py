@@ -12,3 +12,7 @@ def results():
     data = dict(request.form)
     response = model.calculate_song(data)
     return render_template('results.html', response=response)
+    
+@app.route('/badges')
+def badges():
+    return render_template('badges.html')

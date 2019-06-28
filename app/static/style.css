@@ -51,6 +51,8 @@ h1{
     height: 115px;
     background: red;
     color: white;
+    margin-top: 15px;
+    box-shadow: 7px 7px 5px maroon;
 }
 
 .btn{
@@ -72,9 +74,65 @@ div, iframe {
 
 .results{
     height: 72px;
+    border-radius: 15px;
+    background: rgb(61, 171, 255);
+    color: white;
+    margin-top: 15px;
+    box-shadow: 7px 7px 5px blue;
 }
 
 .tagline{
     font-size: 20px;
     color: grey;
+}
+
+.nav-wrapper{
+    margin-left: 20px;
+}
+
+.fun-quiz{
+    margin-right: 10px;
+}
+
+.about{
+    font-size: 50px;
+    text-align: center;
+    border-radius: 15px;
+    height: 70px;
+    background: rgb(61, 171, 255);
+    color: white;
+    margin-top: 15px;
+    box-shadow: 7px 7px 5px blue;
+}
+
+.lucy{
+    font-size: 23px;
+    color: blue;
+}
+
+.full{
+    background: rgb(255, 227, 239);
+}
+
+.result-page{
+    background: rgb(255, 227, 239);
+}
+
+.smile{
+    display: block;
+    margin-left: 550px;
+    margin-right: 595px;
+    border:2px solid #fff;
+	-moz-box-shadow: 0px 6px 5px #ccc;
+	-webkit-box-shadow: 0px 6px 5px #ccc;
+	box-shadow: 0px 6px 5px #ccc;
+	-moz-border-radius:190px;
+	-webkit-border-radius:190px;
+	border-radius:190px;
+}
+
+.logo{
+    margin-top: 7px;
+    height: 50px;
+    width: 50px;
 }
