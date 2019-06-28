@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+.Question_title{
+    grid-column: span 2;
+    font-size: 30px;
+    color: blue;
+    border-style: dotted;
+    margin-right: 1150px;
+}
+
+.title{
+    grid-column: span 2;
+    font-size: 30px;
+    color: blue;
+    border-style: dotted;
+    margin-right: 1125px;
+}
+
+.question4{
+    grid-column: span 2;
+    font-size: 30px;
+    color: blue;
+    border-style: dotted;
+    margin-right: 1060px;
+}
+
+.quiz_form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image{
+    display: block;
+    margin-bottom: 500px;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 20px;
+}
+
+.shorts{
+    width: 500px;
+    height: 485px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    border-radius: 15px;
+    height: 115px;
+    background: red;
+    color: white;
+}
+
+.btn{
+    margin-left: 600px;
+}
+
+.last{
+    margin-bottom: 450px;
+}
+
+.response{
+    text-align: center;
+    font-size: 25px;
+}
+
+div, iframe {
+    margin-left: 410px
+}
+
+.results{
+    height: 72px;
+}
+
+.tagline{
+    font-size: 20px;
+    color: grey;
+}

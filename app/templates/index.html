@@ -1,0 +1,121 @@
+<html>
+
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="static/style.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Quiz</title>
+</head>
+
+<body>
+    <h1> Go Shopping at Target and We'll Give You a Taylor Swift Song to Listen To</h1>
+    <p class="tagline">Are you ready for it?</p>
+    <form class="quiz_form" action="/results" method="POST">
+        <p class="Question_title">Choose a shirt</p>
+        <p>
+            <label>
+                <input name="shirt" type="radio" value="1" />
+                <span class="last"><img src="https://target.scene7.com/is/image/Target/GUEST_22623577-46ca-42bb-8a55-b2ac79fee2b1?wid=488&hei=488&fmt=webp"></span>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input name="shirt" type="radio" value="2" />
+                <span class="last"><img src="https://target.scene7.com/is/image/Target/GUEST_711ed6a9-eaf9-4a9a-90bc-81943a2f1902?wid=488&hei=488&fmt=webp"></span>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input name="shirt" type="radio" value="3" />
+                <span class="image"><img src="https://target.scene7.com/is/image/Target/GUEST_707d87db-b409-47b9-afea-7c6f7d4ae1e7?wid=488&hei=488&fmt=webp"></span>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input name="shirt" type="radio" value="4" />
+                <span class="image"><img src="https://target.scene7.com/is/image/Target/GUEST_8e7dc780-007d-403c-96b2-eb9bd2534b5b?wid=488&hei=488&fmt=webp"></span>
+            </label>
+        </p>
+        <p class="title">Choose bottoms</p>
+        <p>
+            <label>
+                <input name="bottoms" type="radio" value="1" />
+                <span class="last"><img src="https://target.scene7.com/is/image/Target/GUEST_de3e9398-cd1a-4f1d-b004-fb911cc9761c?wid=488&hei=488&fmt=webp"></span>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input name="bottoms" type="radio" value="2" />
+                <span class="last"><img src="https://target.scene7.com/is/image/Target/GUEST_58ae28f7-c32d-4c47-888f-b4082a49af69?wid=488&hei=488&fmt=webp"></span>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input name="bottoms" type="radio" value="3" />
+                <span class="image"><img src="https://target.scene7.com/is/image/Target/GUEST_3c07cb8e-e69f-4f69-a752-cad308a41dc6?wid=488&hei=488&fmt=webp"></span>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input name="bottoms" type="radio" value="4" />
+                <span><img class="shorts" src="https://target.scene7.com/is/image/Target/GUEST_62ae3131-3944-4079-bcb6-e1f0366a1794?wid=810&hei=810&fmt=webp"></span>
+            </label>
+        </p>
+        <p class="Question_title">Choose shoes</p>
+        <p>
+            <label>
+                <input name="shoes" type="radio" value="1" />
+                <span class="last"><img src="https://target.scene7.com/is/image/Target/GUEST_1a958cea-1d4f-4caf-a11a-46b8b1c94efd?wid=488&hei=488&fmt=webp"></span>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input name="shoes" type="radio" value="2" />
+                <span class="last"><img src="https://target.scene7.com/is/image/Target/GUEST_bb58aab9-d601-41c3-91ab-12cb12da4b74?wid=488&hei=488&fmt=webp"></span>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input name="shoes" type="radio" value="3" />
+                <span class="image"><img src="https://target.scene7.com/is/image/Target/GUEST_b1361d10-de35-40af-a1c9-4adfd31ee809?wid=488&hei=488&fmt=webp"></span>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input name="shoes" type="radio" value="4" />
+                <span class="image"><img src="https://target.scene7.com/is/image/Target/GUEST_37416de6-a28f-4b0a-980f-3d0e770688d7?wid=488&hei=488&fmt=webp"></span>
+            </label>
+        </p>
+        <p class="question4">Choose an accessory</p>
+        <p>
+            <label>
+                <input name="accessory" type="radio" value="1" />
+                <span class="last"><img src="https://target.scene7.com/is/image/Target/GUEST_9ed3ef43-1e8c-42f4-bd53-bed7eee59424?wid=488&hei=488&fmt=webp"></span>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input name="accessory" type="radio" value="2" />
+                <span class="last"><img src="https://target.scene7.com/is/image/Target/GUEST_fc40f11b-9657-4ef4-8f6c-119b3291a9bb?wid=488&hei=488&fmt=webp"></span>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input name="accessory" type="radio" value="3" />
+                <span class="image"><img src="https://target.scene7.com/is/image/Target/GUEST_730b5a28-b7ce-405d-8aa4-a4abfd1305d8?wid=488&hei=488&fmt=webp"></span>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input name="accessory" type="radio" value="4" />
+                <span class="image"><img src="https://target.scene7.com/is/image/Target/GUEST_b807763b-8f9b-40b3-bc6d-94a8157e52d8?wid=488&hei=488&fmt=webp"></span>
+            </label>
+        </p>
+        <input type="submit" value="Submit" class="btn">
+    </form>
+
+</body>
+
+</html>

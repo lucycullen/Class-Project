@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="static/style.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Quiz</title>
+</head>
+
+<body>
+    <h1 class="results">You got:</h1>
+    <p class="response">{{ response }}</p>
+    {% if response == "22 by Taylor Swift!!" %}
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/AgFeZr5ptV8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if response == "Clean by Taylor Swift!!" %}
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IGmMW7JTvuw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if response == "Delicate by Taylor Swift!!" %}
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tCXGJQYZ9JA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+</body>
+
+</html>
